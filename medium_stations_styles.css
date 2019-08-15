@@ -1,0 +1,169 @@
+/* This css stylesheet is for Medium Stations */
+
+body {
+  background-color: #36454f;
+}
+
+div#header {
+  width: 100%;
+  background-color: #36454f ;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0 0 26px 0;
+  border-bottom: .5px solid #A7C3DB;
+}
+
+div#invisible-header {
+  width: 100%;
+  visibility: hidden;
+}
+
+div#header h2, div#invisible-header h2 {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-weight: 900;
+  color: #f1f3f5;
+  font-size: 2em;
+  text-align: center;
+}
+
+div#header img, div#invisible-header img {
+  align: left;
+}
+
+
+div.intro {
+  background-color: #36454f;
+  width: 100%;
+ }
+
+h1.centered {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-weight: 900;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: .4em;
+}
+
+p.centered {
+  text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.put_img_in_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+.button_formatting {
+   display: flex;
+   flex-direction: row;
+   clear: both;
+   width: 100%;
+   float: left;
+   margin-left: .5em;
+}
+
+
+.without {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+/* Style The Dropdown Button */
+
+.dropbtn {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  background-color: #36454f;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 13.85%;
+  float: left;
+  margin-right: .5em;
+ 
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #A7C3DB;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #88C1F1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #A7C3DB;
+}
+
+
+
+
+
+div.footer_there {
+  width: 100%;
+  background-color: #36454f;
+  position: absolute;
+  left: 0;
+  margin-bottom: 0;
+  border-top: .5px solid #A7C3DB;
+}
+
+div.footer_not_there {
+  width: 100%;
+  visibility: hidden;
+}
+
+div.footer_there p, div.footer_not_there p  {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-weight: 100;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+
+div.footer_there a,  div.footer_not_there a {
+text-decoration: none;
+color: white;
+}

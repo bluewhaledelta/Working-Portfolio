@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+      <title>Product Landing Page</title>
+        <link rel="stylesheet" type="text/css" href="product_landing_styles.css">
+    </head>
+  <body>    
+    <header id="header">
+      <nav id="nav-bar">   
+      <div id="wrap" class="robo">  
+      
+      <div>
+     <h2><a href="product_landing_page.html"><img id="header-img" src="images/tropical_header_logo.jpeg" width="47" height="30" alt="logo"></a><a href="product_landing_page.html" id="logonew">Travel Tours&reg;</a></h2>
+      </div>         
+
+       <div class="robo_two">
+     <h2><a href="#our_tours" class="nav-link" id="nav-slide">Our Tours</a> <a href="#destinations" class="nav-link" id="nav-slide-2">Destinations</a> <a href="#packages" class="nav-link" id="nav-slide-3">Packages</a></h2>
+        </div>
+         
+         
+        </div> 
+      </nav>
+    </header>
+
+<br><br><br><br>
+
+<div class="intro" id="tours">
+<h3 class="cent"> Welcome to Travel Tours&reg;</h3>
+<h1 class="centered"> What's Your Destination?</h1>
+<img class="put_img_in_center" id="click_and_slide_down"  src="images/tropical_main.jpeg" width="776" height="493" alt="tropical_main">
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<div class="sub">
+ <form id="form" action="https://www.freecodecamp.com/email-submit">
+  Welcome to Travel Tours! Please enter your email address:
+   <input type="email"  name="email" id="email" required button type="submit" placeholder="Email"><br><br> 
+  <input button type="submit" id="submit" >
+  </form>
+</div>  
+      
+      
+
+<div id="our-tours-false">
+<br><br><br><br>
+    </div>
+    
+    
+<p class="centered" id="our_tours"> Our Tours</p>
+<img class="put_img_in_center" src="images/tropical_intro.jpeg" width="582" height="370" alt="tropical_tour_2">
+<p class="centered_reg"> Lorem ipsum dolor sit amet, pro sanctus tractatos at, at fabulas conclusionemque eum, ei dolore recusabo incorrupte vix. Alienum temporibus ex eos, id prima justo pri. Ut cum alienum abhorreant. Pro ex soluta primis imperdiet. Sea ut agam electram temporibus, mei ad affert perfecto mediocrem. His no eius fabulas eligendi. Ne nam exerci tempor doctus. Cu aperiam aliquando sea, no mea nullam laoreet scribentur. Officiis percipit mea eu, at movet nostrum pericula vel. At impedit insolens vis, id causae minimum has.</p>
+
+<div id="destinations-false">
+<br><br><br><br>
+    </div>
+
+<p class="centered" id="destinations"> Destinations</p>
+
+<br><br>
+
+<div id="container">
+<img src="images/tropical_left.jpeg" width="582" height="370" alt="tropical_1">
+<img src="images/tropical_center.jpeg" width="582" height="370" alt="tropical_2">
+<img src="images/tropical_right.jpeg" width="582" height="370" alt="tropical_3">
+</div>
+<p class="centered_reg" id="paraplace-2">Pro ex soluta primis imperdiet. Sea ut agam electram temporibus, mei ad affert perfecto mediocrem. His no eius fabulas eligendi. Ne nam exerci tempor doctus. Cu aperiam aliquando sea, no mea nullam laoreet scribentur. Officiis percipit mea eu, at movet nostrum pericula vel. At impedit insolens vis, id causae minimum has. </p>
+
+<div id="packages-false">
+<br><br><br>
+    </div>    
+
+
+<p class="centered" id="packages"> Packages</p>
+ 
+<br>
+
+<div id="container_2">
+
+  <div class="box_1">
+  <h1>Aruba</h1>
+  <h1>6 nights, 7 days - $1250</h1>
+  </div>
+
+  <div class="box_1">
+  <h1>The Bahamas</h1>
+  <h1>6 nights, 7 days - $1150</h1>
+  </div> 
+    
+  <div class="box_1"> 
+  <h1>Tahiti</h1>
+  <h1>6 nights, 7 days - $1450</h1> 
+  </div>
+
+
+</div>
+
+
+
+
+<br><br><br><br><br>
+
+<div>   
+<iframe id="video" align="middle" width="560" height="315" src="https://www.youtube.com/embed/BscE9cDURzE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<div class="footer_not_there">
+<p>&#169;2019 Travel Tours</p>
+</div>
+ 
+
+
+<div class="footer_there">
+<p><a href="product_landing_page.html" id="foot">&#169;2019 Travel Tours</a></p>
+<p><a href="index.html">Back to Main</a></p>
+
+
+</div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+     </script>
+     <script>
+$(document).ready(function() {
+   
+    $('img#click_and_slide_down').click(function(){
+        $('html, body').animate({scrollTop: $("input#submit").offset().top}, 1000);
+        return false;
+    });
+
+  $('a#nav-slide').click(function(){
+        $('html, body').animate({scrollTop: $("div#our-tours-false").offset().top}, 1000);
+        return false;
+    });
+
+$('a#nav-slide-2').click(function(){
+        $('html, body').animate({scrollTop: $("div#destinations-false").offset().top}, 1000);
+        return false;
+    });
+  
+  $('a#nav-slide-3').click(function(){
+        $('html, body').animate({scrollTop: $("div#packages-false").offset().top}, 1000);
+        return false;
+    });
+
+  $('a#logonew').click(function(){
+        $('html, body').animate({scrollTop: 0}, 1000);
+        return false;
+    });
+
+   $('a#foot').click(function(){
+        $('html, body').animate({scrollTop: 0}, 1000);
+        return false;
+    });
+
+
+
+});
+
+
+
+
+
+
+</script>
+
+
+  </body>
+</html>

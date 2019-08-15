@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+
+ <html lang="en">
+   <head>
+     <title>Portfolio Site</title>
+     <link rel="stylesheet" type="text/css" href="styles.css">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+   </head> 
+   
+   <body>
+
+     
+     
+     
+     <div class="image-large" id="home">
+
+        <div class="nav">
+          <label for="toggle">&#9776;</label>
+          <input type="checkbox" id="toggle">
+       
+       
+    <div class="contain-nav">
+         <a href="#home" class="scrollTo"><h2>Home</h2></a>
+         <a href="#about" class="scrollTo"><h2>About</h2></a>
+         <a href="#projects" class="scrollTo"><h2>Work</h2></a>
+         <a href="#contact" class="scrollTo"><h2>Contact</h2></a>
+    </div>
+     
+       </div>
+       
+     </div>
+
+     
+     <div class="fixed_title">
+       <a id="web_design" href="#projects" class="scrollTo"><h1>Web Design</h1></a>
+       <a href="#projects" class="scrollTo"><h6>The Portfolio Site of Dale Isip</h6></a>
+     </div>
+     
+     <div id="projects">
+       <h1 class="flush">My Projects:</h1>
+  
+      <ul class="container">
+
+       <li class="project-tile"><a href="product_landing_page.html"><img class="rounded" src="images/product_landing_page_thumb.jpeg" width="300px" height="200px" alt="product_landing"><br><br>Product Landing Page</a></li>  
+
+       <li class="project-tile"><a href="addition_site.html"><img class="rounded" src="images/addition_page_thumb.jpeg" width="300px" height="200px" alt="addition_calculator"><br><br>Addition Calculator</a></li>
+               
+       <li class="project-tile"><a href="survey_form.html"><img class="rounded" src="images/survey_form_thumb.jpeg" width="300px" height="200px" alt="survey_form"><br><br>Survey Form</a></li>
+        
+   </ul>
+<ul class="container">
+        <li class="project-tile"><a href="tribute_page.html"><img class="rounded" src="images/tribute_page_thumb.jpeg" width="300px" height="200px" alt="tribute_page"><br><br>Tribute Page</a></li>
+        
+        <li class="project-tile"><a href="railroad_ideas.html"><img class="rounded" src="images/railroad_ideas_thumb.jpeg" width="300px" height="200px" alt="railroad_design"><br><br>Railroad Design Page 1</a></li>
+
+        <li class="project-tile"><a href="railroad_designs.html"><img class="rounded" src="images/railroad_design_thumb.jpeg" width="300px" height="200px" alt="railroad_design"><br><br>Railroad Design Page 2</a></li>
+        
+       </ul>      
+       </div>
+     
+     
+     <div id="about" class="about_section">
+  <h1>About</h1>
+
+   <div class="flex_container">
+
+    <div class="para_left"><h4>Margins, shading, and border radii are familiar to Dale &#8210 as is working at simplifying code to reach better solutions.   
+HTML, CSS, JavaScript, jQuery, PHP, (and now learning) React. 
+Loves saltwater bay fishing, aviation history, and the great outdoors.</h4></div> 
+    
+
+<div class="image_right">
+<a href="contact.html"><img class="featured" src="images/profile_pic_doc_rouge_cut.jpg" width="200px" height="150px"></a>
+</div>  
+  
+</div>
+
+
+<div class="skills">
+
+<div class="container_heading">
+<h2>Skills</h2>
+</div>
+
+<div class="skill_container">
+
+<div class="column_one">
+<h4>HTML/HTML 5</h4>
+<h4>CSS</h4>
+<h4>JavaScript (ES6)</h4>
+</div>
+
+<div class="column_two">
+<h4>PHP</h4>
+<h4>jQuery</h4>
+<h4>React.js</h4>
+</div>
+
+
+</div>
+
+
+</div>
+ 
+
+</div>
+ 
+     
+<div class="third" id="contact">
+  
+  <h1 class="middle">Contact Me:</h1>
+  
+  <ul class="container_three">
+  
+  <li><h2><a href="contact.html">Contact</a></h2></li> 
+
+ 
+  </ul>
+
+</div>
+
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+     </script>
+     <script>
+$(document).ready(function() {
+
+$(".scrollTo").on('click', function(e) {
+     e.preventDefault();
+     var target = $(this).attr('href');
+     $('*').animate({
+       scrollTop: ($(target).offset().top)
+     }, 1000);
+  });
+  
+});
+
+
+/* To avoid "Added non-passive event listener to a scroll-blocking 'touchstart' event" warning */
+
+(function () {
+    if (typeof EventTarget !== "undefined") {
+        let func = EventTarget.prototype.addEventListener;
+        EventTarget.prototype.addEventListener = function (type, fn, capture) {
+            this.func = func;
+            if(typeof capture !== "boolean"){
+                capture = capture || {};
+                capture.passive = false;
+            }
+            this.func(type, fn, capture);
+        };
+    };
+}());
+
+
+</script>
+
+     
+     
+     
+     </body>
+</html>

@@ -1,0 +1,113 @@
+
+/* HTML and body formatting: */
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Body - overflow-x is separated so that the scrollTo function works: */
+
+body {
+   overflow-x: hidden; 
+}
+
+h1#title {
+  font-family: 'MS Sans Serif', Geneva, sans-serif;
+  color: white;
+  text-shadow: 1px 2px 5px #000000;
+}
+
+h1.centered {
+  text-align: center;
+}
+
+h4.cent {
+  text-align: center;
+}
+
+h4#instructions {
+  font-family: 'MS Sans Serif', Geneva, sans-serif;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 5px #000000;
+}
+
+div.please_enter {
+  margin-bottom: 45px;
+  margin-top: 50px;
+}
+
+div.main-form {
+  background-color: lavender;
+  margin-left: 700px;
+  margin-right: 700px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding-top: 1%;
+  padding-bottom: .5%;
+}
+
+
+label.on_left  {
+  float: left;
+  background-color: lavender;
+  width: 45%;
+  text-align: right;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+input.field {
+  float: left;
+  width: 20%;
+  background-color: white;
+  text-align: left;
+  margin-left: 2em;  
+}
+
+div.field {
+  float: right;
+  background-color: lavender;
+  width: 52%;
+  text-align: left;
+}
+
+
+
+
+
+
+div.center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+    width: 70%;
+    height: 30%;
+    position: relative;
+ }
+
+
+.image-large {
+background-image: url("https://www.dropbox.com/s/ckjqonhjshupw11/architecture-buildings-city-565476%20%281%29.jpg?raw=1");
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%; 
+background-position: center;
+min-height: 100%;
+position: relative;
+}
+
+button.button_one {
+    padding: 5px 15px; 
+    background: mintcream; 
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}

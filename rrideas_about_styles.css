@@ -1,0 +1,205 @@
+/* These are css styles for the About Page */
+
+
+/* A header and an invisible header to put the header flush to the top:  */
+
+
+div#header {
+  width: 100%;
+  background-color: #36454f ;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+div#invisible-header {
+  width: 100%;
+  visibility: hidden;
+}
+
+div#header h2, div#invisible-header h2 {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-weight: 900;
+  color: #f1f3f5;
+  font-size: 2em;
+  text-align: center;
+}
+
+div#header img, div#invisible-header img {
+  align: left;
+}
+
+/* Intro and title heading styling:   */
+
+div.intro {
+  background-color: white;
+}
+
+h1.centered {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-weight: 900;
+  color: darkblue;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: .4em;
+}
+
+/* Paragraoh styling:  */
+
+p.centered {
+  text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*  Image in the center: */
+
+.put_img_in_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+div.first {
+  background-color: white;
+  width: 50%;
+  float: left;
+}
+
+div.second {
+  background-color: white;
+  width: 50%;
+  float: right;
+}
+
+div.third {
+  background-color: white
+  width: 100%;
+}
+
+img.cent {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+p.cent {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  text-align: center;
+  
+}
+
+
+  
+img.left_column {
+  border-radius: 50%;
+  margin-left: 70%;
+  margin-right: 20%;
+}
+
+
+p.on_left {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  margin-left: 72%;
+  margin-right: 10%;
+}
+
+p.on_right {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  margin-left: 22%;
+  margin-right: 50%;
+}
+
+
+img.right_column {
+  border-radius: 50%;
+  margin-left: 20%;
+  margin-right: 50%;
+}
+
+
+img.left_column:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+ 
+img.right_column:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
+img.cent:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
+/* Footer and invisible footer to cover the bottom:  */
+
+div.footer_there {
+  width: 100%;
+  background-color: #36454f ;
+  position: absolute;
+  left: 0; 
+}
+
+div.footer_not_there {
+  width: 100%;
+  visibility: hidden;
+}
+
+
+div.footer_there p, div.footer_not_there p  {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-weight: 100;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+
+div.footer_there a,  div.footer_not_there a {
+text-decoration: none;
+color: white;
+}
+
+/* Flexbox styling for the round elements on the bottom of the page:  */
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+  height: 300px;
+}
+
+/* The list elements and anchors have no styling and are centered:  */
+
+.container li a {
+  text-decoration: none;
+  text-align: center;
+  margin-left: -20px;
+  font-family: 'MS Sans Serif', Geneva, sans-serif;
+}
+
+/* The images are rounded squares:  */
+
+.container img {
+  border-radius: 20px;
+}
+
+
+/* The pop up and rotate if there is a webkit available:  */
+
+.container img:hover {
+  transform: scale(1.2) rotate(360deg);
+}

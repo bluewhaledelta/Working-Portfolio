@@ -1,0 +1,185 @@
+/* These are css styles for the Product Landing Page */
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+
+
+#header {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  background-color: lightblue;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+}
+
+
+
+
+div#wrap {
+  
+}
+
+div.robo {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  color: white;
+  background-color: lightblue;
+  justify-content: space-between;
+  flex-direction: row; 
+  display: flex;
+}
+
+div.robo_two {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+div.robo_two h2 {
+  margin-right: 30px;
+}
+
+
+
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 5px 0 5px;
+}
+
+iframe {
+    width: 500px;
+    height: 315px;
+    margin: 0 auto;
+    background-color: #777;
+    display: block;
+}
+
+label.name  {
+  float: left;
+  background-color: white;
+  width: 49%;
+  text-align: right;
+}
+
+input.field {
+  float: left;
+  width: 20%;
+  background-color: white;
+  text-align: left;
+  margin-left: 1em;  
+}
+
+div.intro {
+  background-color: white;
+  width: 100%;
+ }
+
+h1.centered {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-weight: 900;
+  color: black;
+  font-size: 2em;
+  text-align: center;
+  margin-top: .5em;
+  margin-bottom: .4em;
+}
+
+
+p.centered {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  font-size: 2em;
+}
+
+.cent {
+   font-family: 'Arial Black', Gadget, sans-serif;
+  text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+
+.put_img_in_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+p.centered_reg {
+  text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+div#container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+div.sub {
+  text-align: center;
+}
+
+div#container_2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+div.box_1 {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  text-align: center;
+  padding: 3em;
+  border: 1px solid black;
+}
+
+
+div.footer_there {
+  width: 100%;
+  background-color: lightblue;
+  position: absolute;
+  left: 0;
+  margin-bottom: 0;
+ }
+
+div.footer_not_there {
+  width: 100%;
+  visibility: hidden;
+}
+
+div.footer_there p, div.footer_not_there p  {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  font-weight: 100;
+  color: black;
+  font-size: 1em;
+  text-align: center;
+}
+
+div.footer_there a,  div.footer_not_there a {
+text-decoration: none;
+color: white;
+}
+
+ 
+
+
+  

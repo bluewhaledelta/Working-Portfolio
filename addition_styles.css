@@ -1,0 +1,114 @@
+/* This is the css style sheet for the addition page.  */
+
+/* To style paragraph elements in the center:   */
+
+p.centered {
+  width: 100%;
+  font-size: 1em;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  color: mintcream;
+  text-shadow: 4px 4px 5px #000000;
+}
+
+h3.centered {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+ color: #FFA1A1;
+  text-shadow: 4px 4px 5px #000000;
+}
+
+h5.centered {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  color: mintcream;
+  text-shadow: 4px 4px 5px #000000;
+}
+
+
+
+/*  To style the form in the center:  */
+
+form.centered {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  color: black;
+}
+
+/*  To style the heading of the form: */
+
+h1.centered {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  color: #FFA1A1;
+  text-shadow: 4px 4px 5px #000000
+  
+}
+
+/* The heading of the entire page. It is in the center.  */
+
+h1#centered {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  color: #FFA1A1;
+  text-shadow: 4px 4px 5px #000000;
+}
+  
+/* The form is white set in a teal background:  */
+
+div.form_body {
+  margin-left: 8%;
+  margin-right: 8%;
+  border-radius: 25px;
+  padding-top: 2%;
+  padding-bottom: 15% 
+}
+
+/* The body. The background color is teal:  */
+
+body.main {
+  background-image: url("images/addition_page_background.jpeg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  
+}
+
+/*Button Styling */
+
+input#unique_button_one {
+  background-color: ivory;
+  color: black;
+  border: 2px solid ivory; 
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 1em;
+ }
+
+input#unique_button_one:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input#unique_button_two {
+  background-color: ivory;
+  color: black;
+  border: 2px solid ivory; 
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 1em;
+}
+  
+input#unique_button_two:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+

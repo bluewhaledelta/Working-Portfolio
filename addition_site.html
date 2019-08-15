@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>Math Equations - Addition</title>
+<link rel="stylesheet" type="text/css" href="addition_styles.css"> 
+</head>
+
+
+<body class="main">
+<h1 id="centered">Calculator</h1>
+
+<br>
+
+  
+  <div class="form_body">
+
+  <h1 class="centered">Addition</h1>
+
+<br><br>
+
+
+
+<form class="centered">
+<h3 class="centered">Please enter value 1, a number.</h3> <br> 
+<input id="val_1" class="centered" type="text"> <br><br><br>
+
+
+  
+<h3 class="centered">Please enter value 2, another number.</h3> <br>
+<input id="val_2" class="centered" type="text"> <br><br>
+  
+  <br><br><br><br><br><br>
+
+  
+<h3 class="centered">Please click the button below to add the numbers (value 1 + value 2).</h3> <br><br><br><br>
+<input type="submit" id="unique_button_one" class="centered" value="Add Them!" onclick="addThem()"> <br><br>
+</form>
+
+<br><br><br><br>
+<form action="index.html">
+  <p class="centered" id="subtraction"> <input id="unique_button_two" type="submit" value="Back to Main"></p>  
+</form>
+
+  </div>
+<script>
+function addThem() {
+var a = document.getElementById("val_1").value;
+var b = document.getElementById("val_2").value;
+if (isNaN(a)) {
+  alert("Please enter a number for Value 1.");
+  return false;
+}
+if (isNaN(b)) {
+  alert("Please enter a number for Value 2.");
+  return false;
+}
+else {
+var total = Number(a) + Number(b);
+alert(total);
+  return true;
+}
+}
+
+
+
+</script> 
+
+
+</body>
+</html>
