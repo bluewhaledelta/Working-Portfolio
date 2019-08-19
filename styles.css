@@ -64,7 +64,7 @@ position: relative;
 }
 
 .contain-nav {
-  position: fixed;
+  position: absolute;
   top: 0px;
   right: 0px;
   display: flex;
