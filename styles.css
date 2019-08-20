@@ -182,17 +182,6 @@ div.flex_container {
     padding-right: 25%;
 }
   
-/* About section - paragraph on left  */
-   
-div.para_left {
-  font-family: sans-serif;
-  color: black;
-  background: transparent;
-  width: 25%;
-  margin-left: 26%;
-  float: left;
-
-}
 
 /* About section - image on right  */
 
