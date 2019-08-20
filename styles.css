@@ -174,9 +174,12 @@ div.about_section h1 {
   color:  black;
  }
   
+
 div.flex_container {
-display: flex;
-flex-direction: row;
+    width: 50%;
+    background: white;
+    padding-left: 25%;
+    padding-right: 25%;
 }
   
 /* About section - paragraph on left  */
@@ -197,7 +200,7 @@ div.para_left {
 div.image_right {
   float: right;
   width: 150px;
-  background: red;
+  background: white;
 }
 
 
