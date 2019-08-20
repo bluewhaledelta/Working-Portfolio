@@ -311,6 +311,29 @@ font-family: 'MS Sans Serif', Geneva, sans-serif;
     color: white;
     text-shadow: 1px 2px 5px #000000;
 }
+
+div.footer_links {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'MS Sans Serif', Geneva, sans-serif;
+  margin-right: 0px;
+  justify-content: flex-end;
+  color: white;
+  border-top: double;
+  background-image: linear-gradient(to right, #002B5A, #1C4673, #1F4E9A, #002B5A); 
+}
+
+
+div.footer_links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 75px;
+}
+
+
+
  
   
 /* These media queries are here to adjust the site so that the links and selectable items stack one on top of each other vertically on the page as the screen size grows smaller. Let's start with cell phones (600px and down). 
