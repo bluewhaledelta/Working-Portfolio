@@ -181,6 +181,8 @@ div.flex_container {
     background: white;
     padding-left: 30%;
     padding-right: 25%;
+    max-height: 10%;
+    min-width: 50%;
 }
   
 
