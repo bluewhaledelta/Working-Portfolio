@@ -207,9 +207,9 @@ img.featured:hover {
 
 
 div.skills {
- text-align: center;
+  padding-top: 10px;
+  text-align: center;
   font-family: 'MS Sans Serif', Geneva, sans-serif;
-
 }
 
 div.container_heading {
