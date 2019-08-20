@@ -193,13 +193,13 @@ div.para_left {
 
 /* About section - image on right  */
 
+
 div.image_right {
-background: transparent;
-  width: 25%;
   float: right;
-  margin-left: 2%;
-   margin-top: 10px;
+  width: 150px;
+  background: red;
 }
+
 
 
 
