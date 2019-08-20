@@ -176,6 +176,7 @@ div.about_section h1 {
   
 
 div.flex_container {
+    font-family: sans-serif;
     width: 50%;
     background: white;
     padding-left: 25%;
