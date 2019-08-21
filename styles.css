@@ -321,7 +321,7 @@ div.footer_links {
   position: static;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   font-family: 'MS Sans Serif', Geneva, sans-serif;
   margin-right: 0px;
   justify-content: flex-end;
