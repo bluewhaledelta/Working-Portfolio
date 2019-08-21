@@ -199,7 +199,8 @@ div.image_right {
 a.contact_title {
  text-decoration: none;   
  color: white;
- text-shadow: 1px 2px 5px #000000;   
+ text-shadow: 1px 2px 5px #000000;
+ background-image: linear-gradient(to right, #002B5A, #1C4673, #1F4E9A, #002B5A); 
 }
 
 
