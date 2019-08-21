@@ -263,11 +263,12 @@ div.third {
 }
   
 h1.middle {
-  margin-top: 10px 
+  margin-top: 10px;
   background-color: white;
-font-family: 'MS Sans Serif', Geneva, sans-serif;
+  font-family: 'MS Sans Serif', Geneva, sans-serif;
   color: white;
   text-shadow: 1px 2px 5px #000000;
+  background-image: linear-gradient(to right, #002B5A, #1C4673, #1F4E9A, #002B5A);   
 }
 
 
