@@ -196,7 +196,9 @@ div.image_right {
  padding-left: 10%;
 }
 
-
+a.contact_title {
+ text-decoration: none;   
+}
 
 
 img.featured {
