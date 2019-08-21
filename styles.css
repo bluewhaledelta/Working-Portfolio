@@ -253,15 +253,17 @@ div.column_two {
 
   /* For the footer */
 
+
 div.third {
   text-align: center;
   font-family: 'MS Sans Serif', Geneva, sans-serif;
   color: white;
-  text-shadow: 1px 2px 5px #000000;
-  background-image: linear-gradient(to right, #002B5A, #1C4673, #1F4E9A, #002B5A); 
+  background-color: white;
   margin-top: 0px;
   padding-top: 2px;
-}
+  text-shadow: 1px 1px 3px #000000;
+  background-image: linear-gradient(to right, #002B5A, #1C4673, #1F4E9A, #002B5A); 
+}  
   
 h1.middle {
   margin-top: 10px;
@@ -271,6 +273,16 @@ h1.middle {
   text-shadow: 1px 2px 5px #000000;
   background: transparent;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
