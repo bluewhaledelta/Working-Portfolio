@@ -251,6 +251,103 @@ div.column_two {
 }
 
 
+ /* For the footer */
+
+div.third {
+  text-align: center;
+  font-family: 'MS Sans Serif', Geneva, sans-serif;
+  color: white;
+  background-color: white;
+  margin-top: 0px;
+  padding-top: 2px;
+  text-shadow: 1px 1px 3px #000000;
+  background-image: linear-gradient(to right, #002B5A, #1C4673, #1F4E9A, #002B5A); 
+}  
+
+
+
+  
+h1.middle {
+  margin-top: 10px;
+  background-color: white;
+  font-family: 'MS Sans Serif', Geneva, sans-serif;
+  color: white;
+  text-shadow: 1px 1px 5px #000000;
+  background: transparent;
+}
+
+
+
+  
+  /* For footer links, below. */ 
+
+.container_three {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container_three li a {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.container_three li a:link{
+  color: white;
+  text-shadow: 1px 2px 5px #000000;
+}
+.container_three li a:visited {
+  color: white;
+  text-shadow: 1px 2px 5px #000000;
+}
+.container_three li a:hover{
+  color: white;
+  text-shadow: 1px 2px 5px #000000;
+}
+.container_three li a:focus{
+  color: white;
+    text-shadow: 1px 2px 5px #000000;
+}
+
+.container_three li a:active{
+    color: white;
+    text-shadow: 1px 2px 5px #000000;
+}
+ 
+  
+div.footer_links {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'MS Sans Serif', Geneva, sans-serif;
+  margin-right: 0px;
+  justify-content: flex-end;
+  color: white;
+  border-top: double;
+  background-image: linear-gradient(to right, #002B5A, #1C4673, #1F4E9A, #002B5A); 
+}
+
+
+div.footer_links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 75px;
+}
+
+
+
+
+
+
 
 /*
 
