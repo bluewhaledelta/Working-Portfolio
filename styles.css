@@ -257,7 +257,7 @@ div.third {
   text-align: center;
   font-family: 'MS Sans Serif', Geneva, sans-serif;
   color: white;
-  background-color: white;
+ 
   margin-top: 0px;
   padding-top: 2px;
   text-shadow: 1px 1px 3px #000000;
@@ -269,7 +269,7 @@ div.third {
   
 h1.middle {
   margin-top: 10px;
-  background-color: white;
+  
   font-family: 'MS Sans Serif', Geneva, sans-serif;
   color: white;
   text-shadow: 1px 1px 5px #000000;
