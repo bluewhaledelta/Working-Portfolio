@@ -68,6 +68,7 @@ input.field {
   background-color: white;
   text-align: left;
   margin-right: 36%;
+  min-width: 20%;
 }
 
 div.field {
@@ -120,6 +121,7 @@ textarea.text_field_one {
   width: 40%;
   margin-right: 16%;
   clear: right;
+  min-width: 40%;
 }
 
 
