@@ -1,5 +1,136 @@
-
 /* HTML and body formatting: */
+
+html, body {
+    width: 100%;
+  min-height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Body - overflow-x is separated so that the scrollTo function works: */
+
+body {
+   overflow-x: hidden; 
+background-size: cover;
+}
+
+h1#title {
+  font-family: 'MS Sans Serif', Geneva, sans-serif;
+  color: white;
+  text-shadow: 1px 2px 5px #000000;
+}
+
+h1.centered {
+  text-align: center;
+}
+
+h4.cent {
+  text-align: center;
+}
+
+h4#instructions {
+  font-family: 'MS Sans Serif', Geneva, sans-serif;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 5px #000000;
+}
+
+div.please_enter {
+  margin-bottom: 45px;
+  margin-top: 50px;
+}
+
+div.main-form {
+  background: transparent;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding-top: 1%;
+  padding-bottom: .5%;
+}
+
+
+label.on_left  {
+  float: left;
+  background: transparent;
+  width: 40%;
+  color: white;
+  text-align: right;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-shadow: 1px 2px 5px #000000;
+  clear: both;
+}
+
+input.field {
+  float: right;
+  width: 20%;
+  background-color: white;
+  text-align: left;
+  margin-right: 36%;
+}
+
+div.field {
+  float: right;
+  background: transparent;
+  width: 52%;
+  text-align: left;
+}
+
+div.center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+    width: 70%;
+    height: 30%;
+    position: relative;
+ }
+
+
+.image-large {
+background-image: url("https://www.dropbox.com/s/ckjqonhjshupw11/architecture-buildings-city-565476%20%281%29.jpg?raw=1");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height: 100%;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+padding-right: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+}
+
+button.button_one {
+    padding: 5px 15px; 
+    background: mintcream; 
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+textarea.text_field_one {
+  float: right;
+  width: 40%;
+  margin-right: 16%;
+  clear: right;
+}
+
+
+
+
+
+
+
+
+
+/* OBSOLETE BELOW HTML and body formatting: OBSOLETE BELOW 
 
 html, body {
     width: 100%;
@@ -8,7 +139,7 @@ html, body {
     padding: 0px;
 }
 
-/* Body - overflow-x is separated so that the scrollTo function works: */
+Body - overflow-x is separated so that the scrollTo function works: 
 
 body {
    overflow-x: hidden; 
@@ -111,3 +242,4 @@ button.button_one {
     -webkit-border-radius: 5px;
     border-radius: 5px; 
 }
+*/
