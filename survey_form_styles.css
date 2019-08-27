@@ -1,122 +1,94 @@
-/* This is the css style sheet for Test survey form */
-
-/* The body for the form. It is a reddish brown color.    */
+/* Stylesheet for survey form: */
 
 
-body.main {
+body {
   background-color: brown;
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
-/*  The title "Survey From" is in beige.  */
-
-h1#title {
+h1#centered {
   color: beige;
-}
-
-/* To get the paragraphs in the middle  */
-
-p.centered {
-  text-align: left;
-  margin-left: 50%;
-  max-width: 300px;
-}
-
-/* To center the heading:  */
-
-h1.centered {
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
   text-align: center;
 }
 
-/* The body of the form, in beige:  */
 
-div.form_body {
+section {
+   background-color: beige;
+   width: 80%;
+   border-radius: 3em;
+   text-align: center;
+   margin: auto;
+   overflow: auto;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+div.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+
+
+
+select#right {
+  margin-left: 2%;
+}
+
+select#right_two {
+  margin-left: 2%;
+}
+
+textarea.to_right {
+    margin-left: 2%;
+}
+
+input.improv {
+  margin-left: 2%;
+}
+
+div.inside {
+   text-align: left;
+  width: 55%;
+  margin-right: 7%;
+}
+
+
+
+p.blue {
   background-color: beige;
-  margin-left: 28%;
-  margin-right: 28%;
-  border-radius: 5px;
+  text-align: left; 
+  margin-left: 24.5%;
+  width: 40%;
+  max-height: 10%;
 }
 
-div.form_title {
-  border-radius: 5px;
+
+
+div.on_the_left {
   background-color: beige;
-  text-align: center; 
+  margin-right: 2%;
 }
 
-/*   */
-
-div.name {
-  float: left;
+div.on_the_right {
   background-color: beige;
-  width: 45%;
-  text-align: right;
 }
 
-/*   */
-div.field {
-  float: right;
+
+div.on_the_left_two {
   background-color: beige;
-  width: 52%;
+  text-align: left; 
+  margin-left: 24.5%;
+  width: 40%;
+  max-height: 10%;
+}
+
+div.on_the_right_two {
   text-align: left;
-}
-/* For the *Name, *Email, *Age, text:  */
-label.name  {
-  float: left;
-  background-color: beige;
-  width: 45%;
-  text-align: right;
-}
-/* For the "Please enter your name" and the like:  */
-label.field {
-  float: right;
-  background-color: white;
-  width: 52%;
-  text-align: left;
-}
-
-/* For the actual input fields. And how they are positioned.  */
-
-input.name  {
-  float: left;
-  width: 45%;
-  background-color: white;
-  text-align: right;
-}
-
-/* How the radio buttons are formatted:  */
-
-input.field {
-  float: left;
-  width: 20%;
-  background-color: white;
-  text-align: left;
-  margin-left: 2em;  
+  width: 55%;
+  margin-right: 7%;
 }
 
 
-input.new {
-  float: left;
-  width: 45%;
-  background-color: white;
-  text-align: left;
-}
-
-
-/* How the dropdown menus and questions are formatted:  */
-
-select.name  {
-  float: left;
-  background-color: white;
-  width: 45%;
-  text-align: right;
-}
-
-select.field {
-  float: left;
-  background-color: white;
-  margin-left: 2em;  
-  width: 10%;
-  text-align: left;
-}
-  
+ 
   
