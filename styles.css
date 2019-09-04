@@ -211,8 +211,7 @@ div.image_right {
 
 a.contact_title {
  text-decoration: none;   
- color: white;
- text-shadow: 1px 2px 5px #000000;
+ color: black;
  background: transparent; 
 }
 
@@ -267,14 +266,12 @@ div.column_two {
  /* For the footer */
 
 div.third {
-  text-align: center;
-  font-family: 'MS Sans Serif', Geneva, sans-serif;
+text-align: center;
+font-family: 'MS Sans Serif', Geneva, sans-serif;
   color: white;
- 
   margin-top: 0px;
   padding-top: 2px;
-  text-shadow: 1px 1px 3px #000000;
-  background-image: linear-gradient(to right, #002B5A, #1C4673, #1F4E9A, #002B5A); 
+  background-color: white; 
 }  
 
 
@@ -282,11 +279,9 @@ div.third {
   
 h1.middle {
   margin-top: 10px;
-  
   font-family: 'MS Sans Serif', Geneva, sans-serif;
-  color: white;
-  text-shadow: 1px 1px 5px #000000;
-  background: transparent;
+  color: black;
+ background: transparent;
 }
 
 
@@ -314,25 +309,20 @@ h1.middle {
 }
 
 .container_three li a:link{
-  color: white;
-  text-shadow: 1px 2px 5px #000000;
+  color: black;
 }
 .container_three li a:visited {
-  color: white;
-  text-shadow: 1px 2px 5px #000000;
+  color: black;
 }
 .container_three li a:hover{
-  color: white;
-  text-shadow: 1px 2px 5px #000000;
+  color: black;
 }
 .container_three li a:focus{
-  color: white;
-    text-shadow: 1px 2px 5px #000000;
+  color: black;
 }
 
 .container_three li a:active{
-    color: white;
-    text-shadow: 1px 2px 5px #000000;
+    color: black;
 }
  
   
@@ -360,7 +350,6 @@ div.footer_links a {
  
   
 /* These media queries are here to adjust the site so that the links and selectable items stack one on top of each other vertically on the page as the screen size grows smaller. Let's start with cell phones (600px and down). 
-
 Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
