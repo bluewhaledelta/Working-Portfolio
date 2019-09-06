@@ -12,7 +12,8 @@ html, body {
 /* Body - overflow-x is separated so that the scrollTo function works: */
 
 body {
-   overflow-x: hidden; 
+   overflow-x: hidden;
+  background-color: darkblue;
 }
 
 /* Styling for "hamburger" menu */
@@ -35,19 +36,86 @@ body {
   line-height: 70px;
 }
 
+/* To hide top menu when screen is small */
 
-label {
-  width: 26px;
-  margin: 0 40px 0 0;
-  font-size: 26px;
-  line-height: 70px;
+@media screen and (min-width: 768px) {
+div#contain-nav {
   display: none;
+  }
+}
+
+/* CSS for Hamburger Menu */
+
+div#mymenu {
   float: right;
 }
 
-#toggle{
+@media screen and (min-width: 768px) {
+div#mymenu {
   display: none;
+  }
 }
+
+
+
+div.menu1 {
+  width: 4em;
+  height: .5em;
+  background-color: white;
+  margin: .4em 2em;
+}
+
+a.fold {
+color: white;
+text-shadow: 1px 2px 5px #000000;
+font-family: 'MS Sans Serif', Geneva, sans-serif;
+text-decoration: none;
+font-size: 2em;
+
+}
+
+@media screen and (min-width: 1080px) {
+div#mymenu {
+  display: none;
+  }
+}
+
+div.hamburgerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+div.hamburgerContainer a {
+  margin-top: 1em;
+}
+
+div.content {
+  display: none;
+  margin-top: 50px;
+  margin-right: 0em;
+  float: right;
+}
+
+div.collapsible {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0em;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Background image formatting: */
 
