@@ -13,6 +13,7 @@ html, body {
 
 body {
    overflow-x: hidden;
+  background-color: darkblue;
 }
 
 /* Styling for "hamburger" menu */
@@ -37,8 +38,8 @@ body {
 
 /* To hide top menu when screen is small */
 
-@media screen and (min-width: 768px) {
-div#contain-nav {
+@media screen and (max-width: 768px) {
+div.contain-nav {
   display: none;
   }
 }
