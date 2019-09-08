@@ -34,7 +34,7 @@
        
        <div id="mymenu"> 
   
-<div class="collapsible" onclick="collEx()">
+<div class="collapsible">
 <div class="menu1"></div>
 <div class="menu1"></div>
 <div class="menu1"></div>
@@ -79,7 +79,7 @@
         
         <li class="project-tile"><a href="railroad_ideas.html"><img class="rounded" src="images/railroad_ideas_thumb.jpeg" width="300px" height="200px" alt="railroad_design"><br><br>Railroad Design Page 1</a></li>
 
-        <li class="project-tile"><a href="railroad_designs.html"><img class="rounded" src="images/railroad_design_thumb.jpeg" width="300px" height="200px" alt="railroad_design"><br><br>Railroad Design Page 2</a></li>
+        <li class="project-tile"><a href="railroad_designs.html"><img class="rounded" src="images/railroad_design_thumb.jpeg" width="300px" height="200px" alt="railroad_design_2"><br><br>Railroad Design Page 2</a></li>
         
        </ul>      
        </div>
@@ -90,7 +90,7 @@
 
     <div class="flex_container">
      <div class="image_right">
-<a href="contact.html"><img class="featured" src="images/profile_pic_doc_rouge_cut.jpg" width="200px" height="150px"></a>
+<a href="contact.html"><img class="featured" src="images/profile_pic_doc_rouge_cut.jpg" alt="profile_pic" width="200px" height="150px"></a>
 </div>  
      
      
@@ -194,8 +194,10 @@ $(".scrollTo").on('click', function(e) {
 
     
     
-     <script>
-       function collEx() {
+<script>
+  
+document.getElementById("mymenu").addEventListener("click", 
+function collEx() {
 
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -211,6 +213,8 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+}
+);
      
      </script>    
      
