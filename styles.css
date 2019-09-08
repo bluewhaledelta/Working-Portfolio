@@ -13,6 +13,7 @@ html, body {
 
 body {
    overflow-x: hidden;
+  background-color: darkblue;
 }
 
 /* Styling for "hamburger" menu */
@@ -47,6 +48,7 @@ div.contain-nav {
 
 div#mymenu {
   float: right;
+  margin-top: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -70,7 +72,7 @@ text-shadow: 1px 2px 5px #000000;
 font-family: 'MS Sans Serif', Geneva, sans-serif;
 text-decoration: none;
 font-size: 2em;
-
+z-index: 1;
 }
 
 @media screen and (min-width: 1080px) {
@@ -299,6 +301,7 @@ div.skills {
   padding-top: 20px;
   text-align: center;
   font-family: 'MS Sans Serif', Geneva, sans-serif;
+  border-top: .5px solid black;
 }
 
 div.container_heading {
@@ -347,8 +350,10 @@ font-family: 'MS Sans Serif', Geneva, sans-serif;
 h1.middle {
   margin-top: 10px;
   font-family: 'MS Sans Serif', Geneva, sans-serif;
-  color: black;
+ color: black;
  background: transparent;
+ padding: 15px;
+  border-top: .5px solid black; 
 }
 
 
