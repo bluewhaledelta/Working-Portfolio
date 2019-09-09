@@ -2,18 +2,24 @@
 
 
 body {
-  background-color: brown;
+  background-image: url("https://www.dropbox.com/s/aytuzny7f97q20t/appetizer-dark-delicious-326279.jpg?raw=1");
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   color: white; 
+
+  
 }
 
 h1#centered {
-  color: beige;
+  color: white;
   font-family: 'Trebuchet MS', Helvetica, sans-serif;
   text-align: center;
 }
 
 
 section {
-   background-color: beige;
+   background: transparent;
    width: 80%;
    border-radius: 3em;
    text-align: center;
@@ -56,27 +62,27 @@ div.inside {
 
 
 p.blue {
-  background-color: beige;
+  background: transparent;
   text-align: left; 
   margin-left: 24.5%;
   width: 40%;
   max-height: 10%;
+  color: white;
 }
 
 
 
 div.on_the_left {
-  background-color: beige;
-  margin-right: 2%;
+ margin-right: 2%;
 }
 
 div.on_the_right {
-  background-color: beige;
+  background-color: white;
 }
 
 
 div.on_the_left_two {
-  background-color: beige;
+  background: transparent;
   text-align: left; 
   margin-left: 24.5%;
   width: 40%;
@@ -88,6 +94,11 @@ div.on_the_right_two {
   width: 55%;
   margin-right: 7%;
 }
+
+
+ 
+  
+
 
 
  
